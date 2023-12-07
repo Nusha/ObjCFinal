@@ -6,6 +6,7 @@
 //
 
 #import "FirstViewController.h"
+#import "SecondViewController.h"
 
 
 @interface FirstViewController ()
@@ -27,5 +28,16 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
     self.textView.text = text;
 }
+
+- (IBAction)goToSecondViewController:(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    SecondViewController *secondViewController = [storyboard instantiateViewControllerWithIdentifier:@"SecondViewController"];
+    if (secondViewController != nil) {
+        [self.navigationController pushViewController:secondViewController animated:YES];
+    } else {
+        NSLog(@"Error: Unable to instantiate SecondViewController");
+    }
+}
+
 
 @end

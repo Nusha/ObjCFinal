@@ -16,6 +16,7 @@
 		9F5886552B21F7AE00B7F119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5886542B21F7AE00B7F119 /* main.m */; };
 		9F58865D2B21F8E000B7F119 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58865C2B21F8E000B7F119 /* Robot.m */; };
 		9F5886602B21F9A900B7F119 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58865F2B21F9A900B7F119 /* FirstViewController.m */; };
+		9F5886632B21FBD100B7F119 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5886622B21FBD100B7F119 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		9F58865C2B21F8E000B7F119 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
 		9F58865E2B21F9A900B7F119 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		9F58865F2B21F9A900B7F119 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9F5886612B21FBD100B7F119 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9F5886622B21FBD100B7F119 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				9F58865C2B21F8E000B7F119 /* Robot.m */,
 				9F58865E2B21F9A900B7F119 /* FirstViewController.h */,
 				9F58865F2B21F9A900B7F119 /* FirstViewController.m */,
+				9F5886612B21FBD100B7F119 /* SecondViewController.h */,
+				9F5886622B21FBD100B7F119 /* SecondViewController.m */,
 			);
 			path = ObjCFinal;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				9F58864A2B21F7AB00B7F119 /* ViewController.m in Sources */,
 				9F5886602B21F9A900B7F119 /* FirstViewController.m in Sources */,
 				9F5886442B21F7AB00B7F119 /* AppDelegate.m in Sources */,
+				9F5886632B21FBD100B7F119 /* SecondViewController.m in Sources */,
 				9F5886552B21F7AE00B7F119 /* main.m in Sources */,
 				9F5886472B21F7AB00B7F119 /* SceneDelegate.m in Sources */,
 				9F58865D2B21F8E000B7F119 /* Robot.m in Sources */,
